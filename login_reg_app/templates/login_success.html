@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Success</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body id="login_success">
+    <h2>Login Success</h2>
+
+    <p>Welcome {{user.first_name}}</p>
+    <p>Successfully registered (or logged in)</p>
+
+    <a href="/logout">Log Out</a>
+</body>
+</html>

@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dashed red;
+    font-family: sans-serif;
+    }
+
+    #login h2 {
+        margin-left: 730px;
+    }
+
+    #login div {
+        vertical-align: top;
+        width: 400px;
+        display: inline-block;
+        margin-left: 300px;
+    }
+
+    #login div label{
+        width: 100px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    #login div input{
+        width: 200px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .messages {
+        margin-left: 0px;
+        color: red;
+    }
